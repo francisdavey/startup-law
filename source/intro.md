@@ -2,8 +2,34 @@
 # Introduction
 This talk is primarily directed at the classic growth startup - a business that aims to attract outside investors, grow fast and return its founders' investment either in money (e.g. through an "exit") or in valuable publicly tradeable shares (e.g. through some forms of Initial Public Offering or IPO). If this is not you, do not despair - most of what I say will be relevant to a small but growing business, but I will spend a little time on funding and corporate structures.
 
+These notes are not meant to be a complete introduction to law for startups. If there is enthusiasm for such a thing then do please [contact me](mailto:contact@francisdavey.co.uk) and suggest it. Instead these notes are intended to supplemement some of the things I say in the talk.
+
+# SEIS/EIS/SITR
+These schemes allow an investor to recover a large chunk of their investment one way or another in tax breaks. In particular
+
+- tax rebate - the investor can recover their tax rate from the investment. Example: a higher rate (40% in 2014-2015) tax payer invests £10,000, they receive £4,000 tax rebate in that year
+- loss relief - if the investment does not work out
+- capital gains tax is not payable on any gain in value of the shares and 
+
+They apply only to investment in shares and not other kinds of investment, eg through loans to a company.
+
+## Seed Enterprise Investment Scheme (SEIS)
+Is for seed stage investment and may only be used to raise up to £150,000
+
+## Social Investment Tax Relief (SITR)
+This has many similarities to SEIS and EIS, but its significant differences include:
+- investment must be in a social enterprise
+    - Community Interest Company
+    - Community Benefit Society
+    - Charity
+- debt investment can be used
+
 # Business structures
 For a startup intending to exit (by sale or IPO) and make capital gains in that way - a classic definition of "startup" - there is only one sensible business structure: the private company limited by shares. From here on I will often use the shorthand term "company", although that word is used to mean a lot of different things.
+
+## Articles of Association
+There are some useful examples online:
+- [Companies Act 2006 model articles](http://www.companieshouse.gov.uk/about/modelArticles/modelArticles.shtml). These are the default if you do not select articles.
 
 ## Companies Limited by Shares
 
@@ -57,6 +83,7 @@ Any of the following may be used for a charity:
 | Charitable Incorporated Organization | Charity Commission | Charity Commission   |
 
 # Contracts
+
 # Employment
 A lot of useful information can be found on the [ACAS website](http://www.acas.org.uk/). The most useful pages include:
 
@@ -90,6 +117,8 @@ Unfortunately there is no conclusive test for which category someone falls into.
 
 - The ESM (HMRC's [employment status manual](http://www.hmrc.gov.uk/manuals/esmmanual/index.htm) has more detail than most people could possibly want.
 
+For an employee you will almost certainly have to organise that their tax is paid (via Paye as You Earn) and also employer's national insurance. A full run-down of rates [is available](http://www.hmrc.gov.uk/payerti/forms-updates/rates-thresholds.htm) on the HMRC website.
+
 ### Workers
 
  'an individual who has entered into or works under (or, where the employment has ceased) worked under (a) a contract of employment, or (b) any other contract, whether express or implied, and (if it is express) whether oral or in writing, whereby the individual undertakes to do or perform personally any work or services for another party to the contract whose status is not by virtue of the contract that of a client or customer of any profession or business undertaking carried on by the individual'.
@@ -111,7 +140,7 @@ A company's directors are not necessarily employees of the company. The technica
 A company director's employment contract is known as a "service agreement". A company must keep a copy of every written service agreement (and a written memorandum - i.e. summary of - every service agreement that is not in writing).
 
 ###Employee shareholders
-Introduced by section 31 of the Growth and Infrastructure Act 2013. Various rights are lost:
+The idea was to reduce employment rights in return for giving employees shares in the company. Employees may be given shares under other schemes (see below). Introduced by section 31 of the Growth and Infrastructure Act 2013. Various rights are lost:
 
 - right to request flexible working (other than one made within 14 days of return from parental leave)
 - right not to be unfairly dismissed
@@ -147,7 +176,7 @@ Advantages to the employee:
 - victimisation
 - pregnancy
 
-Example: at an interview an Irish girl wearing green was being interviewed by a panel. One interviewer made notes about each interviewee and gave them memorable labels. About this interviewee she wrote "green leprachaun". This proved very unfortuante when the notes were disclosed as part of a discrimination claim.
+> Example: at an interview an Irish girl wearing green was being interviewed by a panel. One interviewer made notes about each interviewee and gave them memorable labels. About this interviewee she wrote "green leprachaun". This proved very unfortuante when the notes were disclosed as part of a discrimination claim.
 
 ## Working Time
 | Right                                        |            | opt-out? |
@@ -166,6 +195,16 @@ Example: at an interview an Irish girl wearing green was being interviewed by a 
 
 ## Employee Share options
 Problem. There will almost never be a convenient market for small quantities of a startup's shares, but they will still be treated as having a taxable value. An employee who is given shares by their employer will have to pay income tax on them but won't be able to realise the value of their shares at that time (if ever).
+
+|                                                |                                      |
+|------------------------------------------------+--------------------------------------|
+| Share Investment Plan (SIP)                    | £3,600 free shares per year          |
+|                                                | £1,800 "partnership" shares per year |
+| Save as You Earn (SAYE)                        | £500 / month                         |
+| Company Share Option Plan (CSOP)               |                                      |
+| Enterprise Management Investment Scheme (EMIS) |                                      |
+
+See: <http://www.hmrc.gov.uk/shareschemes/> for reference.
 
 # Intellectual Property
 There's a lot of useful information at the [OWN-IT site](http://www.own-it.org/knowledge), including a [rather colourful glossary](http://www.own-it.org/knowledge/36/category) of terms.

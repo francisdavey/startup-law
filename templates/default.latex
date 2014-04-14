@@ -1,0 +1,46 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{ifxetex, ifluatex}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{fontspec}
+ \usepackage{titlesec}
+
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+
+\setcounter{secnumdepth}{1}
+\setlength{\parindent}{0cm} % do not want paragraph indents
+
+% For Word like page layout to satisfy what people now expect
+
+\setlength{\marginparwidth}{2.5cm}
+\setlength{\topmargin}{0cm}
+\setlength{\headheight}{0cm}
+\setlength{\headsep}{0cm}
+%\setlength{\voffset}{2.5cm}
+
+\setmainfont{Times New Roman}
+\setsansfont{Cambria}
+
+\titleformat{\subsubsection}
+{\normalfont\large\itshape}{\thesubsection}{1em}{}
+
+
+$if(title)$
+\title{$title$\thanks{Latest version available from http://francisdavey.github.io/open-data/}}
+$endif$
+
+\author{$for(author)$$author.name$\thanks{$author.email$} $sep$\\$endfor$}
+
+\date{}
+
+\begin{document}
+$if(title)$
+\maketitle
+$endif$
+
+\raggedright
+$body$
+\end{document}
