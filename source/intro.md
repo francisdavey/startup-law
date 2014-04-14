@@ -1,6 +1,35 @@
 
+# Introduction
+This talk is primarily directed at the classic growth startup - a business that aims to attract outside investors, grow fast and return its founders' investment either in money (e.g. through an "exit") or in valuable publicly tradeable shares (e.g. through some forms of Initial Public Offering or IPO). If this is not you, do not despair - most of what I say will be relevant to a small but growing business, but I will spend a little time on funding and corporate structures.
+
 # Business structures
-For a startup intending to exit (by sale or IPO) and make capital gains in that way - a classic definition of "startup" - there is only one sensible business structure: the private company limited by shares.
+For a startup intending to exit (by sale or IPO) and make capital gains in that way - a classic definition of "startup" - there is only one sensible business structure: the private company limited by shares. From here on I will often use the shorthand term "company", although that word is used to mean a lot of different things.
+
+## Companies Limited by Shares
+
+### Creation
+Creating a company is fairly straightforward by hand, but there are numerous online registrars that will create a company for a very modest fee. The online deals are sufficiently competitive that it is worth just googling for something like "Limited Company Creation" and comparing the top hits against each other.
+
+
+### Directors
+Directors run a company from day to day. They are its "controlling mind". Together the directors are often referred to as *the board*. A company must have at least one director. The company's constitution will set out how directors are elected _???MODEL ARTICLES HERE???
+
+### Company Secretary
+Companies used to have to have another officer known as a "company secretary". This is no longer true, but companies may still have one. A company secretary can be used as one of the two joint signatures of the company instead of a director.
+
+### Shares 
+Each share in a company has a "face value". For example, a company might be created with 100 shares each with a *nominal value* or *face value* of £1. In later funding rounds shares may be sold for much higher values than their face value, representing (you hope) an increase in the company's value.
+
+When you create a company you need enough shares to allow you to divide initial ownership between the founders.
+
+Although the face value looses any meaning after a while, it does represent the amount of money the first holder of the share has to pay to the company. If the shareholder has done so the shares are "paid up" otherwise they are not "paid up". There are technical advantages to having all shares paid up and no reason not to where the sums are really small. A common mistake of founders is not to actually pay in the small number of pounds into a company for their initial shareholding. It may seem foolish to pay a few pounds in, but as a matter of administration you should do it.
+
+### Dividing shares
+When raising funds or bringing in new people into the business you may want a larger number of shares to allow smaller fractions to be owned. A company may (by resolution) subdivide its shares into more shares of a small face value.
+
+Example: a company with 100 shares of face value £1 could divide its shares into 1,000,000 shares of face value 0.001p
+
+This is a paper exercise. Nobody's shareholding changes in value.
 
 ## Social enterprises
 I don't have time in the talk to discuss options for social enterprises, but there are far more of these:
@@ -22,9 +51,10 @@ Any of the following may be used for a charity:
 - Charitable Incorporated Organization
 
 | Corporate form                       | Regulator          | Charitable regulator |
+|--------------------------------------+--------------------+----------------------|
 | Company limited by guarantee         | Companies House    | Charity Commission   |
 | Industrial & Provident Society       | FCA                | FCA                  |
-| Charitable Incorporated Organization | Charity Commission | Charity Commission                     |
+| Charitable Incorporated Organization | Charity Commission | Charity Commission   |
 
 # Contracts
 # Employment
@@ -215,3 +245,7 @@ The good news is that English law has developed a fairly common-sense law of con
 What this means in practical terms is that
 
 [^1]: In the United States you may register copyright works. You do not have to do so to obtain protection, but if someone infringes a registered work they may have to pay much higher damages to the copyright owner in compensation.
+
+Example NDA's:
+
+- in the [IPO's guide to NDA's](http://www.ipo.gov.uk/nda.pdf) (towards the end)
