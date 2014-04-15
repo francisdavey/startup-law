@@ -10,8 +10,8 @@ transition: "default"
 
 # Introduction
 ## Me
--  freelance startup lawyer
 -  ex-computer scientist
+-  freelance startup lawyer
 -  based in the ODI (Shoreditch)
 
 ## Scope
@@ -41,7 +41,6 @@ transition: "default"
 -  no longer: memorandum
 -  shareholders' agreement
 
-
 ## Agree vesting structure early
 -  what if a founder leaves?
 -  vesting - 4 years
@@ -59,21 +58,22 @@ transition: "default"
 -  EIS, SEIS
 -  no preferences
 -  tax rebate, loss relief, CGT rollover, CGT exemption
--  SITR includes debti investment
+-  SITR includes debt investment
 
 # Contracts
 ## Overview
+-  contracts you will meet
 -  understand what a contract is for
 -  use plain English
 -  what, where, when, who (and how)
 -  use heads of terms
 
-## Contracts you will meet
--  their (big, long, turgid...) contracts
+## You will meet
+-  **their** (big, long, turgid...) contracts
 -  contracts of adhesion
--  your contracts
--  your "standard" contracts
--  your contracts of adhesion (eg website terms)
+-  **your** contracts
+-  **your** "standard" contracts
+-  **your** contracts of adhesion (eg website terms)
 
 ## What is a contract for?
 -  pedantry: is a contract a bit of paper?
@@ -89,20 +89,21 @@ transition: "default"
 -  grammatical
 -  proof readers are cheaper than lawyers
 
-## What, where, when, who (and how)
+## Contents of a contract
 
->  Ahasuerus Inc shall pay £120,000 into coolCo's bank account (no. 01234567 at 
->  HSBC Bank plc, sort code 11-22-44) on 13 August 2014
+- What, where, when, who (and how)
+
+    >  Ahasuerus Inc shall pay £120,000 into coolCo's bank account (no. 01234567 at 
+    >  HSBC Bank plc, sort code 11-22-44) on 13 August 2014
 
 -  introduce the parties
 -  use company numbers
 -  give them friendly names
 
-
 ## Heads of terms
 -  get deal-specific items agreed
 -  give heads of terms to lawyers to fill out
--  *do not* make legally binding
+-  **do not** make legally binding
 -  except: confidentiality, non-compete
 -  also: term sheet
 
@@ -129,8 +130,74 @@ transition: "default"
 
 ## Eligibility to work
 -  only employee people eligible to work in the UK
--  avoid prison
 -  use statutory eligibility check
+-  knowledge => prison
+
+## Contract of employment
+
+- statement of particulars of employment
+- staff handbook
+- policies
+
+## test
+
+## Working Time
+
+<table>
+    <thead>
+    <tr class="header">
+    <th style="text-align: left;">Right</th>
+    <th style="text-align: left;"></th>
+    <th style="text-align: left;">opt-out?</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td style="text-align: left;">Max hours per week</td>
+    <td style="text-align: left;">48</td>
+    <td style="text-align: left;">yes</td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;">Max hours in any 24 hours</td>
+    <td style="text-align: left;">11</td>
+    <td style="text-align: left;">no</td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;">Rest break in 6 hour working day</td>
+    <td style="text-align: left;">20 minutes</td>
+    <td style="text-align: left;">no</td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: left;">Days off per week</td>
+    <td style="text-align: left;">1</td>
+    <td style="text-align: left;">no</td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: left;">Weeks leave per year</td>
+    <td style="text-align: left;">5.6</td>
+    <td style="text-align: left;">no</td>
+    </tr>
+    </tbody>
+    </table>
+    
+## Discrimination
+
+- Equality Act 2010
+- victimisation
+- pregnancy
+- appoint an equality officer
+
+## Employment Rights
+- redundancy pay
+- right not to be unfairly dismissed
+
+## Employee Share options
+
+- EMIS
+- SIP
+- SAYE
+- CSOP
+
 
 # Intellectual Property
 ## Overview

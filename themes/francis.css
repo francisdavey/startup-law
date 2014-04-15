@@ -137,3 +137,25 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: darkblue; }
+
+/*********************************************
+ * TABLES
+ *********************************************/
+table
+    {
+    border-collapse: collapse;
+    border-spacing: 0; /* IE 6 */
+ 
+    border-bottom: 2pt solid #000;
+    border-top: 2pt solid #000; /* The caption on top will not have a bottom-border */
+ 
+    /* Center */
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+thead /* Entire table header */
+    {
+    border-bottom: 1pt solid #000;
+    background-color: #eee; /* Does this BG print well? */
+    }

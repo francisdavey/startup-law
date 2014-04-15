@@ -1,54 +1,73 @@
 
 # Introduction
+## Me
+-  ex-computer scientist
+-  freelance startup lawyer
+-  based in the [ODI](http://theodi.org/ "the Open Data Institute") ([Shoreditch](http://www.openstreetmap.org/?mlat=51.5221&mlon=-0.0834#map=16/51.5221/-0.0834&layers=T))
+
+Obligatory statements about me. Read these only if you are interested. Skip to the next section for the real content.
+
+### Ex-computer scientist
+I received a post-graduate diploma in computer science from Cambridge University in 1990. I did academic research in formal methods and theoretical computing for nearly 6 years and then worked as a system administrator for another 4. I then retrained as a lawyer. During that time I was senior system administrator for a rapid growth startup, which is what made me interested in the field.
+
+### Freelance startup lawyer
+
+I am a practising barrister. I qualified as a barrister in 2003. As a young barrister I experienced a lot of varied law (including employment, immigration and property). Since 2008, I have been building my own legal advice business.
+
+## Scope
+
+-  focus: the equity startup
+-  sorry: social enterprises
+-  most common/important points
+-  <francisdavey.github.io/startup-law>
+-  (notes available by week end)
+
 This talk is primarily directed at the classic growth startup - a business that aims to attract outside investors, grow fast and return its founders' investment either in money (e.g. through an "exit") or in valuable publicly tradeable shares (e.g. through some forms of Initial Public Offering or IPO). If this is not you, do not despair - most of what I say will be relevant to a small but growing business, but I will spend a little time on funding and corporate structures.
+
+Some of what I say will be relevant to social enterprises, but there are quite a few significant points of difference.
 
 These notes are not meant to be a complete introduction to law for startups. If there is enthusiasm for such a thing then do please [contact me](mailto:contact@francisdavey.co.uk) and suggest it. Instead these notes are intended to supplemement some of the things I say in the talk.
 
-# SEIS/EIS/SITR
-These schemes allow an investor to recover a large chunk of their investment one way or another in tax breaks. In particular
+# The Business
 
-- tax rebate - the investor can recover their tax rate from the investment. Example: a higher rate (40% in 2014-2015) tax payer invests £10,000, they receive £4,000 tax rebate in that year
-- loss relief - if the investment does not work out
-- capital gains tax is not payable on any gain in value of the shares and 
+## Corporate structure
+-  company limited by shares
+-  but: social enterprises
+-  setup: google
 
-They apply only to investment in shares and not other kinds of investment, eg through loans to a company.
+### Companies Limited by Shares
 
-## Seed Enterprise Investment Scheme (SEIS)
-Is for seed stage investment and may only be used to raise up to £150,000
-
-## Social Investment Tax Relief (SITR)
-This has many similarities to SEIS and EIS, but its significant differences include:
-- investment must be in a social enterprise
-    - Community Interest Company
-    - Community Benefit Society
-    - Charity
-- debt investment can be used
-
-# Business structures
-For a startup intending to exit (by sale or IPO) and make capital gains in that way - a classic definition of "startup" - there is only one sensible business structure: the private company limited by shares. From here on I will often use the shorthand term "company", although that word is used to mean a lot of different things.
-
-## Articles of Association
-There are some useful examples online:
-- [Companies Act 2006 model articles](http://www.companieshouse.gov.uk/about/modelArticles/modelArticles.shtml). These are the default if you do not select articles.
-
-## Companies Limited by Shares
+The only sensible corporate form for a conventional startup in the UK is a company limited by shares. For almost all startups this will be a private ("Ltd") rather than public ("plc") company. Social enterprises have many more choices, for which see the appendix on corporate structures for social enterprises at the end.
 
 ### Creation
 Creating a company is fairly straightforward by hand, but there are numerous online registrars that will create a company for a very modest fee. The online deals are sufficiently competitive that it is worth just googling for something like "Limited Company Creation" and comparing the top hits against each other.
 
 
-### Directors
-Directors run a company from day to day. They are its "controlling mind". Together the directors are often referred to as *the board*. A company must have at least one director. The company's constitution will set out how directors are elected _???MODEL ARTICLES HERE???
+## Company constitution
+-  articles of association
+-  model articles
+-  no longer: memorandum
+-  shareholders' agreement
 
-### Company Secretary
-Companies used to have to have another officer known as a "company secretary". This is no longer true, but companies may still have one. A company secretary can be used as one of the two joint signatures of the company instead of a director.
 
-### Shares 
-Each share in a company has a "face value". For example, a company might be created with 100 shares each with a *nominal value* or *face value* of £1. In later funding rounds shares may be sold for much higher values than their face value, representing (you hope) an increase in the company's value.
+### Model articles
+There are a number of example articles of association online, in particular:
 
-When you create a company you need enough shares to allow you to divide initial ownership between the founders.
+- Companies House model articles available from <http://www.companieshouse.gov.uk/about/modelArticles/modelArticles.shtml> <http://www.companieshouse.gov.uk/about/modelArticles/model_articles_private_ltd_by_shares_after28April2013.doc> - the "official" model articles for a private limited company. If your company has no articles, these will be the default.
+- British Venture Capital Association (BVCA) model articles, available from <http://www.bvca.co.uk/ResearchPublications/StandardIndustryDocuments/Modeldocumentsforearlystageinvestments.aspx> - still in draft form. The BVCA is trying to produce standard documents to be used in the investment industry. These articles are very complicated, but give you an example of the kind of thing you might need at angel or venture capital stage.
 
-Although the face value looses any meaning after a while, it does represent the amount of money the first holder of the share has to pay to the company. If the shareholder has done so the shares are "paid up" otherwise they are not "paid up". There are technical advantages to having all shares paid up and no reason not to where the sums are really small. A common mistake of founders is not to actually pay in the small number of pounds into a company for their initial shareholding. It may seem foolish to pay a few pounds in, but as a matter of administration you should do it.
+## Agree vesting structure early
+-  what if a founder leaves?
+-  vesting - 4 years
+-  cliff - one year
+
+## Shares are flexible
+-  can subdivide (100 x £1 = 1,000,000 x 0.001p)
+-  split into classes
+-  voting rights
+-  preferential rights to a dividend
+-  liquidation
+-  appointment of directors
 
 ### Dividing shares
 When raising funds or bringing in new people into the business you may want a larger number of shares to allow smaller fractions to be owned. A company may (by resolution) subdivide its shares into more shares of a small face value.
@@ -57,32 +76,80 @@ Example: a company with 100 shares of face value £1 could divide its shares int
 
 This is a paper exercise. Nobody's shareholding changes in value.
 
-## Social enterprises
-I don't have time in the talk to discuss options for social enterprises, but there are far more of these:
+## Share schemes
+-  EIS, SEIS
+-  no preferences
+-  tax rebate, loss relief, CGT rollover, CGT exemption
+-  SITR includes debti investment
 
-- Company limited by guarantee
-- Company limited by shares
-- Industrial & Provident Society
-- Charitable Incorporated Organization
+These schemes allow an investor to recover a large chunk of their investment one way or another in tax breaks. In particular
 
-### Community interest companies
-A community interest company (CIC) is a restricted form of limited company (by guarantee or shares) the assets of which (and in some cases the profits of which) have to be retained for the community. A CIC cannot also be a charity. 
+- tax rebate - the investor can recover their tax rate from the investment. Example: a higher rate (40% in 2014-2015) tax payer invests £10,000, they receive £4,000 tax rebate in that year
+- loss relief - if the investment does not work out
+- capital gains tax is not payable on any gain in value of the shares and 
 
-### Charities
-A charity is not a corporate structure, it is something a corporation can be. Charities obey very strict rules concerning their objects (the purposes for which the charity may operate) and the use to which their finances are put. Charities themselves will generally not engage in extensive business activities, but there is no reason why they cannot own a subsidiary business entity.
+They apply only to investment in shares and not other kinds of investment, eg through loans to a company.
 
-Any of the following may be used for a charity:
-- Company limited by guarantee
-- Industrial & Provident Society
-- Charitable Incorporated Organization
+### Seed Enterprise Investment Scheme (SEIS)
+Is for seed stage investment and may only be used to raise up to £150,000
 
-| Corporate form                       | Regulator          | Charitable regulator |
-|--------------------------------------+--------------------+----------------------|
-| Company limited by guarantee         | Companies House    | Charity Commission   |
-| Industrial & Provident Society       | FCA                | FCA                  |
-| Charitable Incorporated Organization | Charity Commission | Charity Commission   |
+### Social Investment Tax Relief (SITR)
+This has many similarities to SEIS and EIS, but its significant differences include:
+- investment must be in a social enterprise
+    - Community Interest Company
+    - Community Benefit Society
+    - Charity
+- debt investment can be used
 
 # Contracts
+## Overview
+-  understand what a contract is for
+-  use plain English
+-  what, where, when, who (and how)
+-  use heads of terms
+
+## Contracts you will meet
+-  their (big, long, turgid...) contracts
+-  contracts of adhesion
+-  your contracts
+-  your "standard" contracts
+-  your contracts of adhesion (eg website terms)
+
+## What is a contract for?
+-  pedantry: is a contract a bit of paper?
+-  suing the other party if things go wrong
+-  crystallising the agreement
+-  evidence for others
+
+## Use plain English
+-  no magic words
+-  objective observer (with knowledge of the parties)
+-  yuck: hereinafter, aforesaid, hereby,...
+-  unambiguous
+-  grammatical
+-  proof readers are cheaper than lawyers
+
+## What, where, when, who (and how)
+
+>  Ahasuerus Inc shall pay £120,000 into coolCo's bank account (no. 01234567 at 
+>  HSBC Bank plc, sort code 11-22-44) on 13 August 2014
+
+-  introduce the parties
+-  use company numbers
+-  give them friendly names
+
+
+## Heads of terms
+-  get deal-specific items agreed
+-  give heads of terms to lawyers to fill out
+-  *do not* make legally binding
+-  except: confidentiality, non-compete
+-  also: term sheet
+
+## Agreements to agree
+-  no
+-  negotiate [in good faith]
+-  mechanism for resolving differences
 
 # Employment
 A lot of useful information can be found on the [ACAS website](http://www.acas.org.uk/). The most useful pages include:
@@ -101,7 +168,7 @@ The law cares most about what the person is *doing* rather than what you call th
 
 For tax purposes there is a Useful [Employment Status Indicator](http://www.hmrc.gov.uk/calcs/esi.htm), the result for which may be something you can rely on for tax/NICs/VAT purposes, assuming you answer the questions it asks correctly.
 
-### Why it matters
+### Why employment status matters
 
 Status matters for three main reasons:
 
@@ -163,6 +230,15 @@ Advantages to the employee:
 - no capital gains tax on disposal of the shares (up to £50,000)
 
 ## Eligibility to work
+-  only employee people eligible to work in the UK
+-  use statutory eligibility check
+-  knowledge => prison
+
+Employing someone who is not eligible to work in the UK may be a criminal offence. One way to avoid liability is to make sure you check your employee's relevant documents (e.g. their passport) before you employ them. There is official guidance on this:
+
+- <https://www.gov.uk/check-an-employees-right-to-work-documents> - is a useful summary of what you need to do, along with office contact numbers
+- [Summary guide for employers on preventing illegal working in the UK](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/286642/summary-guidance.pdf) 22 page PDF
+- [Full guide for employers on preventing illegal working in the UK](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/276790/full-guide.pdf) 84 page PDF
 
 ## Contract of employment
 
@@ -205,6 +281,33 @@ Problem. There will almost never be a convenient market for small quantities of 
 | Enterprise Management Investment Scheme (EMIS) |                                      |
 
 See: <http://www.hmrc.gov.uk/shareschemes/> for reference.
+
+
+### EMIS
+An EMIS is likely to be the most interesting to most fast equity startups. It is a share option scheme (rather than a share scheme).
+
+- company has assets of up to £30,000,000
+- employees may purchase up to £250,000 shares
+- no tax or NI at the time the option is granted
+- if the option is exercised within 10 years (and there is no "disqualifying event" before that) the employee will only pay tax or NI on any discount on the shares
+
+
+### CSOP
+Works very similarly to EMIS but:
+
+- employees may only buy up to £30,000 worth of shares
+- less favourable capital gains tax treatment
+
+### SIP
+A SIP is a "plan" in which shares may be kept. An employee will have to keep them in the plan for up to 5 years in order to avoid paying any tax or NI. There are four kinds of shares under SIP:
+
+- free shares - up to £3,600 worth of shares for which the employee does not have to pay
+- partnership shares - bought by the employee out of their salary before tax and NI are deducted, up to 10% of salary or £1,800 whichever is the smaller sum
+- matching shares - up to 2 shares per partnership share bought
+- dividend shares - taken instead of dividends on free, partnership and matching shares, up to £1,500 per year.
+
+### SAYE
+The employee saves mony and, after a period of time (3 - 5 years), may use the savings to buy shares.
 
 # Intellectual Property
 There's a lot of useful information at the [OWN-IT site](http://www.own-it.org/knowledge), including a [rather colourful glossary](http://www.own-it.org/knowledge/36/category) of terms.
@@ -288,3 +391,44 @@ What this means in practical terms is that
 Example NDA's:
 
 - in the [IPO's guide to NDA's](http://www.ipo.gov.uk/nda.pdf) (towards the end)
+
+## Social enterprises
+I don't have time in the talk to discuss options for social enterprises, but there are far more of these:
+
+- Company limited by guarantee
+- Company limited by shares
+- Industrial & Provident Society
+- Charitable Incorporated Organization
+
+### Community interest companies
+A community interest company (CIC) is a restricted form of limited company (by guarantee or shares) the assets of which (and in some cases the profits of which) have to be retained for the community. A CIC cannot also be a charity. 
+
+### Charities
+A charity is not a corporate structure, it is something a corporation can be. Charities obey very strict rules concerning their objects (the purposes for which the charity may operate) and the use to which their finances are put. Charities themselves will generally not engage in extensive business activities, but there is no reason why they cannot own a subsidiary business entity.
+
+Any of the following may be used for a charity:
+- Company limited by guarantee
+- Industrial & Provident Society
+- Charitable Incorporated Organization
+
+| Corporate form                       | Regulator          | Charitable regulator |
+|--------------------------------------+--------------------+----------------------|
+| Company limited by guarantee         | Companies House    | Charity Commission   |
+| Industrial & Provident Society       | FCA                | FCA                  |
+| Charitable Incorporated Organization | Charity Commission | Charity Commission   |
+
+# Company terminology
+
+### Directors
+Directors run a company from day to day. They are its "controlling mind". Together the directors are often referred to as *the board*. A company must have at least one director. The company's constitution will set out how directors are elected _???MODEL ARTICLES HERE???
+
+### Company Secretary
+Companies used to have to have another officer known as a "company secretary". This is no longer true, but companies may still have one. A company secretary can be used as one of the two joint signatures of the company instead of a director.
+
+### Shares 
+Each share in a company has a "face value". For example, a company might be created with 100 shares each with a *nominal value* or *face value* of £1. In later funding rounds shares may be sold for much higher values than their face value, representing (you hope) an increase in the company's value.
+
+When you create a company you need enough shares to allow you to divide initial ownership between the founders.
+
+Although the face value looses any meaning after a while, it does represent the amount of money the first holder of the share has to pay to the company. If the shareholder has done so the shares are "paid up" otherwise they are not "paid up". There are technical advantages to having all shares paid up and no reason not to where the sums are really small. A common mistake of founders is not to actually pay in the small number of pounds into a company for their initial shareholding. It may seem foolish to pay a few pounds in, but as a matter of administration you should do it.
+

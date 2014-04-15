@@ -27,7 +27,7 @@ slides/intro-slides.html: source/intro-slides.md templates/default.reveal.js rev
 reveal.js/css/theme/francis.css: themes/francis.css
 	cp themes/francis.css $(REVEALJS)/css/theme/francis.css
 
-hardcopy: hardcopy/intro.pdf
+hardcopy: hardcopy/intro.pdf templates/default.latex
 
 hardcopy/intro.pdf: source/intro.md
 	pandoc source/intro.md -o hardcopy/intro.pdf --template=templates/default.latex --latex-engine=$(XELATEX)
