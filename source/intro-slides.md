@@ -84,7 +84,7 @@ These are some notes.
 
 ## Use plain English
 -  no magic words
--  Objective observer (with knowledge of the parties)
+-  objective observer (with knowledge of the parties)
 -  Yuck: hereinafter, aforesaid, hereby,...
 -  Unambiguous
 -  Grammatical
