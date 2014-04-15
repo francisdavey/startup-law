@@ -5,6 +5,8 @@ XELATEX=/usr/local/texlive/2013basic/bin/universal-darwin/xelatex
 
 # all omits hardcopy to avoid latex problems where it is not installed
 
+REVEALJS=reveal.js
+
 all: pages/intro.html slides/intro-slides.html index.html 
 
 index.html: README.md
@@ -13,10 +15,19 @@ index.html: README.md
 pages/intro.html: source/intro.md
 	pandoc source/intro.md -t html5 -o pages/intro.html --template=templates/default.FORMAT
 
-slides/intro-slides.html: source/intro-slides.md
+slides/intro-slides.html: source/intro-slides.md templates/default.reveal.js reveal.js/css/theme/francis.css
 	pandoc source/intro-slides.md --self-contained -t revealjs -o slides/intro-slides.html --template=templates/default.reveal.js
 
-hardcopy: hardcopy/intro.pdf
+# reveal.js simple theme has a really (to my eye) small space
+# between headings and text, so I hacked the simple theme a small
+# amount.
+
+# this is not the right way to do it.
+
+reveal.js/css/theme/francis.css: themes/francis.css
+	cp themes/francis.css $(REVEALJS)/css/theme/francis.css
+
+hardcopy: hardcopy/intro.pdf templates/default.latex
 
 hardcopy/intro.pdf: source/intro.md
 	pandoc source/intro.md -o hardcopy/intro.pdf --template=templates/default.latex --latex-engine=$(XELATEX)

@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="reveal.js/css/reveal.min.css"/>
     <style type="text/css">code{white-space: pre;}</style>
-    <link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
+    <link rel="stylesheet" href="reveal.js/css/theme/$if(theme)$$theme$$else$default$endif$.css" id="theme">
   <link rel="stylesheet" media="print" href="reveal.js/css/print/pdf.css" />
   <!--[if lt IE 9]>
   <script src="reveal.js/lib/js/html5shiv.js"></script>
@@ -36,7 +36,7 @@
         history: true,
         center: true,
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-        transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+        transition: Reveal.getQueryHash().transition || $if(transition)$'$transition$'$else$'linear'$endif$, // default/cube/page/concave/zoom/linear/fade/none
 
         // Optional libraries used to extend on reveal.js
         dependencies: [
