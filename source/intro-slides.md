@@ -4,6 +4,7 @@ author:
 - name: Francis Davey
   email: contact@francisdavey.co.uk
 controls: "true"
+transition: "default"
 ---
 
 # Introduction

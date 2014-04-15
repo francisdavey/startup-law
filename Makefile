@@ -13,7 +13,7 @@ index.html: README.md
 pages/intro.html: source/intro.md
 	pandoc source/intro.md -t html5 -o pages/intro.html --template=templates/default.FORMAT
 
-slides/intro-slides.html: source/intro-slides.md
+slides/intro-slides.html: source/intro-slides.md templates/default.reveal.js
 	pandoc source/intro-slides.md --self-contained -t revealjs -o slides/intro-slides.html --template=templates/default.reveal.js
 
 hardcopy: hardcopy/intro.pdf
