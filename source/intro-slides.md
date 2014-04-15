@@ -4,7 +4,7 @@ author:
 - name: Francis Davey
   email: contact@francisdavey.co.uk
 controls: "true"
-theme: "test"
+theme: "francis"
 transition: "default"
 ---
 
