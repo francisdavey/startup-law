@@ -4,6 +4,7 @@ author:
 - name: Francis Davey
   email: contact@francisdavey.co.uk
 controls: "true"
+theme: "test"
 transition: "default"
 ---
 
@@ -14,6 +15,7 @@ transition: "default"
 -  based in the ODI (Shoreditch)
 
 ## Scope
+
 -  focus: the equity startup
 -  sorry: social enterprises
 -  most common/important points
@@ -29,19 +31,21 @@ transition: "default"
 -  take advantage of SEIS/EIS/SITR
 
 ## Corporate structure
--  Private 
--  Company 
--  Limited by shares
--  Social enterprises
+-  company limited by shares
+-  but: social enterprises
 -  setup: google
 
-<div class="notes">
-These are some notes.
-</div>
+## Company constitution
+-  articles of association
+-  model articles
+-  no longer: memorandum
+-  shareholders' agreement
+
 
 ## Agree vesting structure early
 -  what if a founder leaves?
--  4 year vesting, one year cliff
+-  vesting - 4 years
+-  cliff - one year
 
 ## Shares are flexible
 -  can subdivide (100 x £1 = 1,000,000 x 0.001p)
@@ -50,12 +54,6 @@ These are some notes.
 -  preferential rights to a dividend
 -  liquidation
 -  appointment of directors
-
-## Company constitution
--  articles of association
--  model articles
--  no longer: memorandum
--  shareholders' agreement
 
 ## Share schemes
 -  EIS, SEIS
@@ -78,18 +76,18 @@ These are some notes.
 -  your contracts of adhesion (eg website terms)
 
 ## What is a contract for?
--  Pedantry: is a contract a bit of paper?
--  Suing the other party if things go wrong
--  Crystallising the agreement
--  Evidence for others
+-  pedantry: is a contract a bit of paper?
+-  suing the other party if things go wrong
+-  crystallising the agreement
+-  evidence for others
 
 ## Use plain English
 -  no magic words
 -  objective observer (with knowledge of the parties)
--  Yuck: hereinafter, aforesaid, hereby,...
--  Unambiguous
--  Grammatical
--  Proof readers are cheaper than lawyers
+-  yuck: hereinafter, aforesaid, hereby,...
+-  unambiguous
+-  grammatical
+-  proof readers are cheaper than lawyers
 
 ## What, where, when, who (and how)
 
@@ -174,7 +172,7 @@ These are some notes.
 -  used defensively
 -  is it really your value?
 
-# Confidentiality
+# Miscellaneous
 
 ## Breach of confidence
 -  quality of confidence
@@ -183,4 +181,9 @@ These are some notes.
 -  don't absolutely need an NDA
 -  but nice to have one
 
-
+## Reducing Lawyers' Fees
+-  draft yourself, lawyer checks
+-  check specific clause
+-  the 1 hour answer
+-  how are you most efficient?
+-  focus
