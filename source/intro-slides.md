@@ -7,6 +7,18 @@ controls: "true"
 ---
 
 # Introduction
+## Me
+-  freelance startup lawyer
+-  ex-computer scientist
+-  based in the ODI (Shoreditch)
+
+## Scope
+-  focus: the equity startup
+-  sorry: social enterprises
+-  most common/important points
+-  francisdavey.github.io/startup-law
+-  (notes available by week end)
+
 # The Business
 
 ## Overview
@@ -83,7 +95,10 @@ These are some notes.
 >  Ahasuerus Inc shall pay £120,000 into coolCo's bank account (no. 01234567 at 
 >  HSBC Bank plc, sort code 11-22-44) on 13 August 2014
 
--  Use company numbers
+-  introduce the parties
+-  use company numbers
+-  give them friendly names
+
 
 ## Heads of terms
 -  get deal-specific items agreed
@@ -95,7 +110,7 @@ These are some notes.
 ## Agreements to agree
 -  no
 -  negotiate [in good faith]
--  mechnism for resolving differences
+-  mechanism for resolving differences
 
 # Employment
 ## Overview
@@ -117,7 +132,6 @@ These are some notes.
 -  only employee people eligible to work in the UK
 -  avoid prison
 -  use statutory eligibility check
-
 
 # Intellectual Property
 ## Overview
@@ -160,3 +174,12 @@ These are some notes.
 -  is it really your value?
 
 # Confidentiality
+
+## Breach of confidence
+-  quality of confidence
+-  CONFIDENTIAL
+-  binds everyone who knows
+-  don't absolutely need an NDA
+-  but nice to have one
+
+
