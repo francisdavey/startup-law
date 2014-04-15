@@ -1,11 +1,22 @@
-all: pages/intro.html slides/intro-slides.html
+# xelatex is needed for producing PDF
+# this link is appropriate for my darwin install
+
+XELATEX=/usr/local/texlive/2013basic/bin/universal-darwin/xelatex
+
+# all omits hardcopy to avoid latex problems where it is not installed
+
+all: pages/intro.html slides/intro-slides.html index.html 
+
+index.html: README.md
+	pandoc README.md -t html5 -o index.html --template=templates/index.FORMAT
 
 pages/intro.html: source/intro.md
 	pandoc source/intro.md -t html5 -o pages/intro.html --template=templates/default.FORMAT
 
-hardcopy/intro.pdf: source/intro.md
-	pandoc source/intro.md -t PDF -o hardcopy/intro.pdf --template=templates/default.latex
-
 slides/intro-slides.html: source/intro-slides.md
 	pandoc source/intro-slides.md --self-contained -t revealjs -o slides/intro-slides.html --template=templates/default.reveal.js
 
+hardcopy: hardcopy/intro.pdf
+
+hardcopy/intro.pdf: source/intro.md
+	pandoc source/intro.md -o hardcopy/intro.pdf --template=templates/default.latex --latex-engine=$(XELATEX)
