@@ -7,7 +7,10 @@ XELATEX=/usr/local/texlive/2013basic/bin/universal-darwin/xelatex
 
 REVEALJS=reveal.js
 
-all: pages/intro.html slides/intro-slides.html index.html 
+GUIDE_SRCS=$(wildcard guides/*.md)
+GUIDE_OBJS=$(GUIDE_SRCS:.md=.html)
+
+all: pages/intro.html slides/intro-slides.html index.html $(GUIDE_OBJS)
 
 index.html: README.md
 	pandoc README.md -t html5 -o index.html --template=templates/readme.FORMAT
@@ -17,6 +20,9 @@ pages/intro.html: source/intro.md
 
 slides/intro-slides.html: source/intro-slides.md templates/default.reveal.js reveal.js/css/theme/francis.css
 	pandoc source/intro-slides.md --self-contained -t revealjs -o slides/intro-slides.html --template=templates/default.reveal.js
+
+guides/%.html : guides/%.md
+	pandoc $< -o $@ -t html5 --template=templates/default.FORMAT
 
 # reveal.js simple theme has a really (to my eye) small space
 # between headings and text, so I hacked the simple theme a small
