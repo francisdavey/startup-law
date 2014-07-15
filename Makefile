@@ -10,7 +10,7 @@ REVEALJS=reveal.js
 all: pages/intro.html slides/intro-slides.html index.html 
 
 index.html: README.md
-	pandoc README.md -t html5 -o index.html --template=templates/index.FORMAT
+	pandoc README.md -t html5 -o index.html --template=templates/readme.FORMAT
 
 pages/intro.html: source/intro.md
 	pandoc source/intro.md -t html5 -o pages/intro.html --template=templates/default.FORMAT
