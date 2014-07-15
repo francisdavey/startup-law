@@ -23,6 +23,8 @@ Company law provides a straightforward way to do this. You may *subdivide* each 
 
 This example assumes that the company has 100 x £1 ordinary shares. Each share will be subdivided into 10,000 shares of 0.01p (one hundredth of a penny) each (10,000 x 0.01p = £1). The company will then have a million ordinary shares of 0.01p allowing greater flexibility.
 
+The members (shareholders) of the company would then pass the following ordinary resolution:
+
 > That each of the ordinary shares of £1 each in the present issued capital of the company be subdivided into 10,000 shares of 0.01p
 
 ## References
