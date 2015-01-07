@@ -10,84 +10,82 @@ transition: "default"
 
 # Introduction
 ## Me
--  ex-computer scientist
--  freelance startup lawyer
--  based in the ODI (Shoreditch)
+-  Freelance lawyer
+-  Clients: small creative and tech. businesses
+-  Based in the ODI (Shoreditch)
 
 ## Scope
 
--  focus: the equity startup
--  sorry: social enterprises
--  most common/important points
--  francisdavey.github.io/startup-law
--  (notes available by week end)
+-  Focus: small creative business
+-  Sorry: social enterprises, equity startups
+-  Most common/important points
+-  These slides: [francisdavey.github.io/startup-law](http://francisdavey.github.io/startup-law)
 
 # The Business
 
 ## Overview
--  company limited by shares
--  agree vesting structure early
--  shares are flexible
--  take advantage of SEIS/EIS/SITR
+-  Possible structures
+-  Company limited by shares
+-  Setting one up
+-  Essential documents
+-  Limited Liability Partnership
 
-## Corporate structure
--  company limited by shares
--  but: social enterprises
--  setup: google
+## Possible business structures
+-  Private company limited by shares (Ltd Company)
+-  Limited liability partnership (LLP)
+-  Possible: worker's co-operative (IPS)
+
+## Private company limited by shares
+-  Separate personality
+-  Separate tax
+-  Owned by shareholders
+-  By default shareholders share profits in proportion to their shares
+
+## Setting up a Ltd Company
+-  Can be done by hand
+-  Companies House [Incorporation and Names](https://www.gov.uk/government/publications/incorporation-and-names)
+-  Google for a startup agent (c.£15)
+-  Don't buy "extras"
 
 ## Company constitution
--  articles of association
--  model articles
--  no longer: memorandum
--  shareholders' agreement
+-  Articles of association
+-  [Model articles](https://www.gov.uk/model-articles-of-association-for-limited-companies) from Companies House
+-  No longer: memorandum
+-  Shareholders' agreement
 
-## Agree vesting structure early
--  what if a founder leaves?
--  vesting - 4 years
--  cliff - one year
-
-## Shares are flexible
--  can subdivide (100 x £1 = 1,000,000 x 0.001p)
--  split into classes
--  voting rights
--  preferential rights to a dividend
--  liquidation
--  appointment of directors
-
-## Share schemes
--  EIS, SEIS
--  no preferences
--  tax rebate, loss relief, CGT rollover, CGT exemption
--  SITR includes debt investment
+## Limited Liability Partnership
+-  Separate personality
+-  Individual tax
+-  Easier to vary profit sharing arrangements
 
 # Contracts
 ## Overview
--  contracts you will meet
--  understand what a contract is for
--  use plain English
--  what, where, when, who (and how)
--  use heads of terms
+-  Contracts you will meet
+-  Understand what a contract is for
+-  Use plain English
+-  What, where, when, who (and how)
+-  Use heads of terms
 
 ## You will meet
--  **their** (big, long, turgid...) contracts
--  contracts of adhesion
--  **your** contracts
--  **your** "standard" contracts
--  **your** contracts of adhesion (eg website terms)
+-  **Their** (big, long, turgid...) contracts
+-  Contracts of adhesion
+-  **Your** contracts
+-  **Your** "standard" contracts
+-  **Your** contracts of adhesion (eg website terms)
 
 ## What is a contract for?
--  pedantry: is a contract a bit of paper?
--  suing the other party if things go wrong
--  crystallising the agreement
--  evidence for others
+-  Pedantry: is a contract a bit of paper?
+-  Suing the other party if things go wrong
+-  Crystallising the agreement
+-  Evidence for others
 
 ## Use plain English
--  no magic words
--  objective observer (with knowledge of the parties)
--  yuck: hereinafter, aforesaid, hereby,...
--  unambiguous
--  grammatical
--  proof readers are cheaper than lawyers
+-  No magic words
+-  Yuck: hereinafter, aforesaid, hereby,...
+-  Objective observer (with knowledge of the parties)
+-  Unambiguous
+-  Grammatical
+-  Proof-readers are cheaper than lawyers
 
 ## Contents of a contract
 
@@ -96,48 +94,49 @@ transition: "default"
     >  Ahasuerus Inc shall pay £120,000 into coolCo's bank account (no. 01234567 at 
     >  HSBC Bank plc, sort code 11-22-44) on 13 August 2014
 
--  introduce the parties
--  use company numbers
--  give them friendly names
+-  Introduce the parties
+-  Use company numbers
+-  Give them friendly names
 
 ## Heads of terms
--  get deal-specific items agreed
--  give heads of terms to lawyers to fill out
+-  Get deal-specific items agreed
+-  Give heads of terms to lawyers to fill out
 -  **do not** make legally binding
--  except: confidentiality, non-compete
--  also: term sheet
+-  Except: confidentiality, non-compete
+-  Also known as: term sheet, heads of agreement
 
 ## Agreements to agree
--  no
--  negotiate [in good faith]
--  mechanism for resolving differences
+-  No
+-  Negotiate [in good faith]
+-  Mechanism for resolving differences
 
 # Employment
 ## Overview
--  understand employment status
--  check eligibility to work
--  contracts of employment
--  working time
--  share options
--  discrimination
--  employment rights
+-  Understand employment status
+-  Check eligibility to work
+-  Contracts of employment
+-  Working time
+-  Share options
+-  Discrimination
+-  Employment rights
 
 ## Employment Status
--  if it quacks like an employee...
--  employee (tax, employment rights)
--  self-employed 
--  worker
+-  If it quacks like an employee...
+-  Employee (tax, employment rights, immigration)
+-  Self-employed 
+-  Worker
 
 ## Eligibility to work
--  only employee people eligible to work in the UK
--  use statutory eligibility check
--  knowledge => prison
+-  Only employee people eligible to work in the UK
+-  Use [statutory eligibility check](https://www.gov.uk/employee-immigration-employment-status)
+-  Knowledge => prison
 
 ## Contract of employment
 
-- statement of particulars of employment
-- staff handbook
-- policies
+- Must have: statement of particulars of employment
+- Contracts of employment are ambulatory
+- Staff handbook
+- Policies
 
 ## test
 
@@ -183,21 +182,13 @@ transition: "default"
 ## Discrimination
 
 - Equality Act 2010
-- victimisation
-- pregnancy
-- appoint an equality officer
+- Victimisation
+- Pregnancy
+- Appoint an equality officer
 
 ## Employment Rights
-- redundancy pay
-- right not to be unfairly dismissed
-
-## Employee Share options
-
-- EMIS
-- SIP
-- SAYE
-- CSOP
-
+- Redundancy pay
+- Right not to be unfairly dismissed
 
 # Intellectual Property
 ## Overview
@@ -208,49 +199,56 @@ transition: "default"
 -  patents
 
 ## Ownership
--  *usually* owner is author/designer/inventor
--  *employer* owns when done in course of employment
--  contractors
--  crowd sourcing
--  competitions
--  assignments in writing
+-  *Usually* owner is author/designer/inventor
+-  *Employer* owns when done "in the course of employment"
+-  Contractors
+-  Crowd sourcing
+-  Competitions
+-  Assignments in writing
 
 ## Trademarks
--  registered ££££
+-  Registered ££££
 -  UK or EU or more
--  how many marks
--  which class?
+-  How many marks
+-  Which class?
 
 ## Copyright
--  unregistered
--  *usually* life + 70 years
--  almost any creative work of authorship
--  infringed by copying, publishing on the web...
+-  Unregistered
+-  *Usually* life + 70 years
+-  Almost any creative work of authorship
+-  Infringed by copying, publishing on the web...
+
+## Artist's Resale Right
+-  Graphic or plastic art
+-  Involvement of professional dealer
+-  Second and subsequent sales over €100
+-  Sliding (down) percentage scale
+-  Nominated collecting society (DACS v ACS)
 
 ## Designs
--  unregistered and registered ££££
+-  Unregistered and registered ££££
 -  UK and EU
 -  2 x 2 = 4
 
 ## Patents
--  inventions
--  registered ££££
--  very expensive to sue
--  used defensively
--  is it really your value?
+-  Inventions
+-  Registered ££££
+-  Very expensive to sue
+-  Used defensively
+-  Is it really your value?
 
 # Miscellaneous
 
 ## Breach of confidence
--  quality of confidence
+-  Quality of confidence
 -  CONFIDENTIAL
--  binds everyone who knows
--  don't absolutely need an NDA
--  but nice to have one
+-  Binds everyone who knows
+-  Don't absolutely need an NDA
+-  But nice to have one
 
 ## Reducing Lawyers' Fees
--  draft yourself, lawyer checks
--  check specific clause
--  the 1 hour answer
--  how are you most efficient?
--  focus
+-  How are you most efficient?
+-  Draft yourself, lawyer checks
+-  Check specific clause
+-  The 1 hour answer
+-  Focus

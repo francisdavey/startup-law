@@ -19,7 +19,7 @@ I am a practising barrister. I qualified as a barrister in 2003. As a young barr
 -  focus: the equity startup
 -  sorry: social enterprises
 -  most common/important points
--  <francisdavey.github.io/startup-law>
+-  (http:francisdavey.github.io/startup-law)
 -  (notes available by week end)
 
 This talk is primarily directed at the classic growth startup - a business that aims to attract outside investors, grow fast and return its founders' investment either in money (e.g. through an "exit") or in valuable publicly tradeable shares (e.g. through some forms of Initial Public Offering or IPO). If this is not you, do not despair - most of what I say will be relevant to a small but growing business, but I will spend a little time on funding and corporate structures.
