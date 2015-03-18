@@ -3,6 +3,10 @@
 
 XELATEX=/usr/local/texlive/2013basic/bin/universal-darwin/xelatex
 
+# why does this not work?
+
+export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
+
 # all omits hardcopy to avoid latex problems where it is not installed
 
 REVEALJS=reveal.js
@@ -10,13 +14,17 @@ REVEALJS=reveal.js
 GUIDE_SRCS=$(wildcard guides/*.md)
 GUIDE_OBJS=$(GUIDE_SRCS:.md=.html)
 
-all: pages/intro.html slides/intro-slides.html index.html $(GUIDE_OBJS)
+all: pages/index.html slides/intro-slides.html index.html $(GUIDE_OBJS)
 
 index.html: README.md
 	pandoc README.md -t html5 -o index.html --template=templates/readme.FORMAT
 
-pages/intro.html: source/intro.md
-	pandoc source/intro.md -t html5 -o pages/intro.html --template=templates/default.FORMAT
+#pages/intro.html: source/intro.md
+#	pandoc source/intro.md -t html5 -o pages/intro.html --template=templates/default.FORMAT
+
+pages/index.html: source/intro.md
+	pandoc -s -S -t docbook source/intro.md -o /tmp/intro.db
+	xmlto xhtml -m xsl/config.xsml /tmp/intro.db -o pages
 
 slides/intro-slides.html: source/intro-slides.md templates/default.reveal.js reveal.js/css/theme/francis.css
 	pandoc source/intro-slides.md --self-contained -t revealjs -o slides/intro-slides.html --template=templates/default.reveal.js

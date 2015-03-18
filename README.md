@@ -2,7 +2,7 @@
 
 This project contains:
 
-* [Slides](slides/intro-slides.html) and [very incomplete notes](pages/intro.html) for a talk I have given a couple of times, most recently at [Fish Island Labs](http://www.barbican.org.uk/fishisland/).
+* [Slides](slides/intro-slides.html) and [very incomplete notes](pages/index.html) for a talk I have given a couple of times, most recently at [Fish Island Labs](http://www.barbican.org.uk/fishisland/).
 * Guides on common company procedures:
     + [Transferring shares](guides/transferring-shares.html)
     + [Subdividing shares](guides/subdividing-share-capital.html)
